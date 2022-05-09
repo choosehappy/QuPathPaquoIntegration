@@ -1,4 +1,4 @@
-Here you find the code that is used in the blog post "Using Paquo to directly interact with QuPath project files for usage in digital pathology machine learning" at [Andrew Janowczyk's Website](http://www.andrewjanowczyk.com/using-paquo-to-directly-interact-with-qupath-project-files-for-usage-in-digital-pathology-machine-learning/).
+Code used in the blog post "Using Paquo to directly interact with QuPath project files for usage in digital pathology machine learning" at [Andrew Janowczyk's Website](http://www.andrewjanowczyk.com/using-paquo-to-directly-interact-with-qupath-project-files-for-usage-in-digital-pathology-machine-learning/).
 
 This is an updated version of the previously described workflow on how to load and classify annotations/detections created in QuPath for usage in downstream machine learning workflows. [The original post](http://www.andrewjanowczyk.com/exporting-and-re-importing-annotations-from-qupath-for-usage-in-machine-learning/) described how to use the Groovy programming language used by QuPath to export annotations/detections as GeoJSON from within QuPath, made use of a Python script to classify them, and lastly used another Groovy script to reimport them. 
 
@@ -9,5 +9,5 @@ In addition, we make use of [papermill](https://papermill.readthedocs.io/), a li
 Last but not least, we speed up the reading of image tiles by facilitating the use of [tiffslide](https://github.com/bayer-science-for-a-better-life/tiffslide), a tiffiles-based drop-in replacement for openslide-python. 
 
 
-Code and blog written by Sabina Köfler (sabina.koefler@jku.at) with huge support from Andrew Janowczyk (https://github.com/choosehappy/) and Andreas Poehlmann (https://github.com/ap--).
+Code and blog post written by Sabina Köfler (sabina.koefler@jku.at) with huge support from Andrew Janowczyk (https://github.com/choosehappy/) and Andreas Poehlmann (https://github.com/ap--).
 
